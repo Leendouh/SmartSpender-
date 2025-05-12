@@ -115,8 +115,9 @@ SmartSpender/
 🌐 Links
 📄 Canva Design:
 https://www.canva.com/design/DAGnPg0fBAc/UbifJ4FxypdlHZ-OfvDntA/edit?utm_content=DAGnPg0fBAc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
-
+---
 🎥 YouTube Demo Video:
+
 https://youtube.com/shorts/D0oT_n03Ess 
 ---
 ✅ **Smart Choices. Smart Savings.** — Thank you for using **SmartSpender**!
