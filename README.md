@@ -122,6 +122,13 @@ SmartSpender/
   [SmartSpender YouTube Demo](https://youtube.com/shorts/D0oT_n03Ess)
 
 ---
+👥 Contributors
+| Name               | Student Number | 
+| ------------------ | -------------- | 
+| Phathisa Ndaliso   | ST10241408     | 
+| Lindokuhle Zwane   | ST10381088     | 
+| Musawenkosi Bhebhe | ST10405518     | 
+
 
 ✅ **Smart Choices. Smart Savings.**
 Thank you for using **SmartSpender**!
