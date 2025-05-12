@@ -1,99 +1,124 @@
-# Budget Tracker App (Kotlin +  SQLite database )
+---
+
+# SmartSpender App (Kotlin + RoomDB)
 
 ## 📱 Overview
-The **Budget Tracker App** is a fully offline Android application built with Kotlin and RoomDB to help users track their expenses efficiently. Users can log in, create categories, add expenses (with optional photos), and set monthly spending goals. The app provides detailed reports on expenses per category over user-selectable periods and uses the South African Rand (R) as the currency.
+
+The **SmartSpender App** is a fully offline Android application built with Kotlin and RoomDB, helping users track expenses, manage categories, and set monthly financial goals. Users can log in, add expenses with optional photos, and monitor their spending over custom periods. All amounts are displayed in South African Rand (R).
 
 ---
 
 ## ✅ Features
 
-- **User Authentication**
-  - Log in using a secure username and password.
+* **User Authentication**
 
-- **Category Management**
-  - Create and manage categories for budgeting and expense tracking.
+  * Log in with a username and password securely.
 
-- **Expense Entry**
-  - Add new expenses with:
-    - Date
-    - Start and End Time
-    - Description
-    - Category
-    - Optional photo attachment
+* **Category Management**
 
-- **Goal Setting**
-  - Set **minimum** and **maximum** monthly spending goals.
+  * Create and manage spending categories.
 
-- **Expense Report**
-  - View expense entries over a custom time range.
-  - View photos attached to expense entries.
-  - View total spending per category over a selected time period.
+* **Expense Tracking**
 
-- **Data Persistence**
-  - All data is stored locally using **RoomDB (SQLite)**.
+  * Add new expenses with:
 
-- **Robust UI**
-  - User-friendly design based on Figma prototype.
-  - Input validation to avoid crashes and invalid data.
+    * Date
+    * Start and End Time
+    * Description
+    * Category
+    * Optional photo attachment
+
+* **Goal Setting**
+
+  * Set **minimum** and **maximum** monthly spending limits.
+
+* **Expense Reports**
+
+  * View all expense entries within a selected date range.
+  * Access stored photos attached to expenses.
+  * Analyze total spending per category during a selectable period.
+
+* **Offline Data Storage**
+
+  * Full local persistence using **RoomDB (SQLite)**.
+
+* **User-Friendly Interface**
+
+  * Clean design layout with input validation to prevent crashes and errors.
 
 ---
 
 ## 🛠 Tech Stack
 
-- **Language**: Kotlin
-- **IDE**: Android Studio
-- **Database**: Room (SQLite)
-- **UI Design**: Jetpack Compose/XML (based on Figma screenshots)
-- **Media Handling**: Optional photo attachments using ImagePicker
-- **Authentication**: Local username-password validation
+* **Language**: Kotlin
+* **IDE**: Android Studio
+* **Database**: Room (SQLite)
+* **UI Design**: XML layouts
+* **Authentication**: Local username-password validation
+* **Photo Handling**: Internal storage management for expense images
 
 ---
 
 ## 🔧 Installation & Running
 
-1. **Clone the Repository** or extract the zipped folder.
-2. Open in **Android Studio**.
-3. Make sure **Gradle** sync completes.
-4. Run the project on a device or emulator.
+1. **Download** or **clone** the project.
+2. **Open** the project in **Android Studio**.
+3. Allow **Gradle** to sync all dependencies.
+4. **Build and run** the app on an emulator or Android device.
+5. Log in or create a user and start tracking expenses!
 
 ---
 
 ## 📸 Screenshots
 
-> Screenshots of the Figma design can be found in the `/screenshots` folder.
+> UI design references and screenshots are available in the `/screenshots` folder.
 
 ---
 
-## 💡 Notes
+## 💡 Additional Notes
 
-- All monetary values are displayed in **South African Rand (R)**.
-- The app works completely offline using local RoomDB storage.
-- Photos are stored in internal storage and linked to individual expense records.
+* All monetary values are calculated and displayed in **South African Rand (R)**.
+* The app is fully functional offline, ensuring fast and reliable access to your data.
+* All attached photos are saved securely in the device’s internal storage.
 
 ---
 
 ## 📂 Folder Structure
 
 ```bash
-BudgetTrackerApp/
+SmartSpender/
 │
-├── app/                   # Kotlin source code
+├── app/                   # Source code
 │   ├── src/
 │   │   ├── main/
 │   │   │   ├── java/
 │   │   │   └── res/
 │   │   │       ├── layout/        # XML layouts
-│   │   │       ├── drawable/      # Icons, image placeholders
-│   │   │       └── values/        # Strings, themes
+│   │   │       ├── drawable/      # Icons and images
+│   │   │       └── values/        # Themes, styles, and strings
 │
-├── screenshots/           # Figma-based UI design references
-├── README.md              # You're reading it!
+├── screenshots/           # UI and design references
+├── PGSL_Form.pdf          # Project form and learning outcomes
+├── demo/                  # Demo video and voice-over
+├── README.md              # This file
+```
 
-🎥 Demo Video
-Ensure your demonstration includes:
+---
 
-A clear walk-through of each feature.
+## 🎥 Demo Video Guidelines
 
-A voice-over explaining what’s being shown.
+* The demo video must clearly walk through each app feature.
+* Include a **voice-over** explaining what is being demonstrated.
+* **Compress** the video using tools like Handbrake for easier upload to Arc.
 
-Compressed video (e.g., via Handbrake) for easy upload to Arc.
+---
+🌐 Links
+📄 Canva Design:
+https://www.canva.com/design/DAGnPg0fBAc/UbifJ4FxypdlHZ-OfvDntA/edit?utm_content=DAGnPg0fBAc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
+
+🎥 YouTube Demo Video:
+https://youtube.com/shorts/D0oT_n03Ess 
+---
+✅ **Smart Choices. Smart Savings.** — Thank you for using **SmartSpender**!
+
+---
