@@ -122,7 +122,7 @@ SmartSpender/
   [SmartSpender YouTube Demo](https://youtube.com/shorts/D0oT_n03Ess)
 
 ---
-👥 Contributors
+## 👥 Contributors
 | Name               | Student Number | 
 | ------------------ | -------------- | 
 | Phathisa Ndaliso   | ST10241408     | 
