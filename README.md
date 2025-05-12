@@ -69,12 +69,6 @@ The **SmartSpender App** is a fully offline Android application built with Kotli
 
 ---
 
-## 📸 Screenshots
-
-> UI design references are available in the `/screenshots` folder.
-
----
-
 ## 💡 Additional Notes
 
 * All monetary values are displayed in **South African Rand (R)**.
