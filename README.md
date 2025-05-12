@@ -12,7 +12,7 @@ The **SmartSpender App** is a fully offline Android application built with Kotli
 
 * **User Authentication**
 
-  * Log in with a username and password securely.
+  * Log in securely with a username and password.
 
 * **Category Management**
 
@@ -20,7 +20,7 @@ The **SmartSpender App** is a fully offline Android application built with Kotli
 
 * **Expense Tracking**
 
-  * Add new expenses with:
+  * Add expenses with:
 
     * Date
     * Start and End Time
@@ -30,56 +30,56 @@ The **SmartSpender App** is a fully offline Android application built with Kotli
 
 * **Goal Setting**
 
-  * Set **minimum** and **maximum** monthly spending limits.
+  * Set minimum and maximum monthly spending limits.
 
 * **Expense Reports**
 
-  * View all expense entries within a selected date range.
-  * Access stored photos attached to expenses.
-  * Analyze total spending per category during a selectable period.
+  * View all expenses within a selected date range.
+  * Access photos attached to expenses.
+  * Analyze total spending per category.
 
 * **Offline Data Storage**
 
-  * Full local persistence using **RoomDB (SQLite)**.
+  * Fully local persistence using **RoomDB (SQLite)**.
 
 * **User-Friendly Interface**
 
-  * Clean design layout with input validation to prevent crashes and errors.
+  * Clean layout with input validation to prevent errors and crashes.
 
 ---
 
 ## 🛠 Tech Stack
 
-* **Language**: Kotlin
-* **IDE**: Android Studio
-* **Database**: Room (SQLite)
-* **UI Design**: XML layouts
-* **Authentication**: Local username-password validation
-* **Photo Handling**: Internal storage management for expense images
+* **Language:** Kotlin
+* **IDE:** Android Studio
+* **Database:** Room (SQLite)
+* **UI Design:** XML layouts
+* **Authentication:** Local username-password validation
+* **Photo Handling:** Internal storage for expense images
 
 ---
 
 ## 🔧 Installation & Running
 
 1. **Download** or **clone** the project.
-2. **Open** the project in **Android Studio**.
-3. Allow **Gradle** to sync all dependencies.
-4. **Build and run** the app on an emulator or Android device.
+2. **Open** in **Android Studio**.
+3. Allow **Gradle** to sync dependencies.
+4. **Build and run** on an emulator or Android device.
 5. Log in or create a user and start tracking expenses!
 
 ---
 
 ## 📸 Screenshots
 
-> UI design references and screenshots are available in the `/screenshots` folder.
+> UI design references are available in the `/screenshots` folder.
 
 ---
 
 ## 💡 Additional Notes
 
-* All monetary values are calculated and displayed in **South African Rand (R)**.
-* The app is fully functional offline, ensuring fast and reliable access to your data.
-* All attached photos are saved securely in the device’s internal storage.
+* All monetary values are displayed in **South African Rand (R)**.
+* The app is fully functional offline.
+* Photos are stored securely in the device’s internal storage.
 
 ---
 
@@ -88,14 +88,14 @@ The **SmartSpender App** is a fully offline Android application built with Kotli
 ```bash
 SmartSpender/
 │
-├── app/                   # Source code
+├── app/                   # Kotlin source code
 │   ├── src/
 │   │   ├── main/
 │   │   │   ├── java/
 │   │   │   └── res/
 │   │   │       ├── layout/        # XML layouts
 │   │   │       ├── drawable/      # Icons and images
-│   │   │       └── values/        # Themes, styles, and strings
+│   │   │       └── values/        # Themes, styles, strings
 │
 ├── screenshots/           # UI and design references
 ├── PGSL_Form.pdf          # Project form and learning outcomes
@@ -107,19 +107,23 @@ SmartSpender/
 
 ## 🎥 Demo Video Guidelines
 
-* The demo video must clearly walk through each app feature.
-* Include a **voice-over** explaining what is being demonstrated.
-* **Compress** the video using tools like Handbrake for easier upload to Arc.
+* Clearly walk through each app feature.
+* Include a **voice-over** explaining the demonstration.
+* **Compress** the video (e.g., using Handbrake) for easy upload to Arc.
 
 ---
-🌐 Links
-📄 Canva Design:
-https://www.canva.com/design/DAGnPg0fBAc/UbifJ4FxypdlHZ-OfvDntA/edit?utm_content=DAGnPg0fBAc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton 
----
-🎥 YouTube Demo Video:
 
-https://youtube.com/shorts/D0oT_n03Ess 
+## 🌐 Links
+
+* **📄 Canva Design:**
+  [SmartSpender Canva Design](https://www.canva.com/design/DAGnPg0fBAc/UbifJ4FxypdlHZ-OfvDntA/edit?utm_content=DAGnPg0fBAc&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+* **🎥 YouTube Demo Video:**
+  [SmartSpender YouTube Demo](https://youtube.com/shorts/D0oT_n03Ess)
+
 ---
-✅ **Smart Choices. Smart Savings.** — Thank you for using **SmartSpender**!
+
+✅ **Smart Choices. Smart Savings.**
+Thank you for using **SmartSpender**!
 
 ---
