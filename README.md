@@ -99,13 +99,7 @@ SmartSpender/
 
 ---
 
-## 🎥 Demo Video Guidelines
 
-* Clearly walk through each app feature.
-* Include a **voice-over** explaining the demonstration.
-* **Compress** the video (e.g., using Handbrake) for easy upload to Arc.
-
----
 
 ## 🌐 Links
 
